@@ -4,7 +4,8 @@
   "description": "web crawler",
   "main": "crawler.js",
   "scripts": {
-    "test": "echo \"all is good: good test\" && exit 1"
+    "test": "echo \"all is good: good test\" && exit 1",
+    "start":"node crawler.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "playwright": "^1.22.2",
     "puppeteer": "^14.1.1",
     "request": "^2.88.2",
-    "request-promise": "^4.2.6"
+    "request-promise": "^4.2.6",
+    "util": "^0.12.4"
   }
 }

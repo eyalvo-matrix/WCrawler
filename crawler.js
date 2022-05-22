@@ -1,11 +1,8 @@
-const express = require('express')
-const app = express()
-const port = 3000
+const browserObject = require('./browser');
+const scraperController = require('./controller');
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+//Start the browser and create a browser instance
+let browserInstance = browserObject.startBrowser();
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
+// Pass the browser instance to the scraper controller
+scraperController(browserInstance)
