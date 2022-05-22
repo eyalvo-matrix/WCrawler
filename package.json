@@ -1,0 +1,28 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "web crawler",
+  "main": "crawler.js",
+  "scripts": {
+    "test": "echo \"all is good: good test\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyalvo-matrix/WCrawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eyalvo-matrix/WCrawler/issues"
+  },
+  "homepage": "https://github.com/eyalvo-matrix/WCrawler#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "express": "^4.18.1",
+    "playwright": "^1.22.2",
+    "puppeteer": "^14.1.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
